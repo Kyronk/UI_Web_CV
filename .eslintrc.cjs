@@ -12,13 +12,13 @@ module.exports = {
     settings: { react: { version: '18.2' } },
     plugins: ['react-refresh'],
     rules: {
-        // 'react-refresh/only-export-components': [
-        //     'warn',
-        //     { allowConstantExport: true },
-        // ],
-        rules: {
-            'no-unused-vars': 'off',
-            '@typescript-eslint/no-unused-vars': ['error', { 'varsIgnorePattern': '^_', "argsIgnorePattern": "^_" }],
-        },
+        'react-refresh/only-export-components': [
+            'warn',
+            { allowConstantExport: true },
+        ],
+        // rules: {
+        //     'no-unused-vars': 'off',
+        //     '@typescript-eslint/no-unused-vars': ['error', { 'varsIgnorePattern': '^_', "argsIgnorePattern": "^_" }],
+        // },
     },
 }
