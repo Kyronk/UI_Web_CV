@@ -78,7 +78,7 @@ const Contact = () => {
                             <span className='userName'>phambaomanhtuongk@gmail.com</span>
 
                             <div>
-                                <a href="https://google.com.vn" target='_blank' className='flex'>
+                                <a href="#" target='_blank' className='flex'>
                                     Send Message
                                     <PiArrowFatLinesRightBold className='icon' />
                                 </a>
