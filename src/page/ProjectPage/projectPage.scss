@@ -1,0 +1,127 @@
+:root{
+    --primaryColor: #00eaff;
+    --primaryHover: hsl(185, 92%, 41%);
+    --secondaryColor: rgb(150, 162, 188);
+    --paragraphColor: rgb(127, 127, 175);
+    --BgColor: #031a30;
+    --formColor: rgb(2, 15, 29);
+    --projectCardColor: #072340;
+    --textColor: #dae4fb;
+    --headerHeight: 3rem;
+
+}
+
+.projectPage{
+    .projectTitle{
+        font-size: 25px;
+        color: var(--primaryColor);
+        width: 100%;
+        // margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    span{
+        display: inline-block;
+        color: var(--textColor);
+        margin-bottom: 40px;
+        font-size: 1.4rem;
+        font-weight: 600;
+        
+    }
+
+    .projectPageContainer{
+        padding-top: 50px;
+
+
+        .projectPageContent{
+            // h5{
+            //     font-size: 25px;
+            //     margin-bottom: 10px;
+            // }
+
+
+        
+            .textSection{
+                h1{
+                    color: var(--textColor);
+                    font-size: 1.4rem;
+                    // max-width: 100%;
+                    width: 100%;
+                    font-weight: 500;
+                    letter-spacing: 1px;
+                    font-weight: 500;
+                    margin: auto;
+                    margin-bottom: 20px;
+                }
+
+                h5 {
+                    font-size: 1rem;
+                }
+
+                h4{
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                }
+                
+                h3{
+                    margin-top: 10px;
+                }
+            }
+
+            .aboutTech{
+                margin-top: 50px;
+                h1{
+                    color: var(--textColor);
+                    font-size: 1.4rem;
+                    max-width: 100%;
+                    letter-spacing: 1px;
+                    font-weight: 500;
+                    margin: auto;
+                    margin-bottom: 20px;
+                }
+
+                h5 {
+                    font-size: 1rem;
+                    margin: 2px;
+                }
+            }
+
+        }
+    }
+
+
+}
+
+
+// media queries
+
+
+@media screen and (min-width: 960px) {
+    .projectPage{
+        .projectTitle{
+        }
+
+        .projectPageContainer{
+            .projectPageContent{
+                grid-template-columns: repeat(2, 1fr);
+                justify-content: center;
+                margin: auto;
+                align-items: flex-start;
+
+
+                .aboutTech{
+                    // align-items: flex-start;
+                    margin-top: 0px;
+                }
+            }
+
+            
+        }
+    }
+}

@@ -38,7 +38,7 @@ const Navbar = () => {
         // <header className='header'>
         <header className={activeHeader}>
             <div className='logoDiv'>
-                <h1 className='logo'><a href="#">Ai.</a></h1>
+                <h1 className='logo'><a href="/">Ai.</a></h1>
             </div>
 
             {/* <div className='navBar'> */}

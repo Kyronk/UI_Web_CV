@@ -9,6 +9,7 @@ import { FaFacebookMessenger } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { ImLinkedin } from "react-icons/im";
+import { BiLogoGmail } from "react-icons/bi";
 
 // import { FaRightLong } from "react-icons/fa6";
 import { PiArrowFatLinesRightBold } from "react-icons/pi";
@@ -56,13 +57,13 @@ const Contact = () => {
 
                         <div className='card'>
                             <div className=''>
-                                <FaInstagramSquare className='icon instaIcon' />
+                                <FaFacebook className='icon instaIcon' />
                             </div>
-                            <h4>Instagram</h4>
-                            <span className='userName'>@userName</span>
+                            <h4>Facebook</h4>
+                            <span className='userName'>@phambaomanhtuongk</span>
 
                             <div>
-                                <a href="https://google.com.vn" target='_blank' className='flex' >
+                                <a href="https://www.facebook.com/phambaomanhtuongk/" target='_blank' className='flex' >
                                     Send Message
                                     <PiArrowFatLinesRightBold className='icon' />
                                 </a>
@@ -71,10 +72,10 @@ const Contact = () => {
 
                         <div className='card'>
                             <div className=''>
-                                <ImLinkedin className='icon instaIcon' />
+                                <BiLogoGmail className='icon instaIcon' />
                             </div>
-                            <h4>Linkedin</h4>
-                            <span className='userName'>@userName</span>
+                            <h4>Gmail</h4>
+                            <span className='userName'>phambaomanhtuongk@gmail.com</span>
 
                             <div>
                                 <a href="https://google.com.vn" target='_blank' className='flex'>
@@ -89,10 +90,10 @@ const Contact = () => {
                                 <FaFacebookMessenger className='icon instaIcon' />
                             </div>
                             <h4>Facebook Message</h4>
-                            <span className='userName'>@userName</span>
+                            <span className='userName'>@phambaomanhtuongk</span>
 
                             <div>
-                                <a href="https://google.com.vn" target='_blank' className='flex'>
+                                <a href="https://www.facebook.com/phambaomanhtuongk/" target='_blank' className='flex'>
                                     Send Message
                                     <PiArrowFatLinesRightBold className='icon' />
                                 </a>

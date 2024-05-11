@@ -27,8 +27,10 @@ const About = () => {
 
                     <div className='aboutBtn'>
                         <a 
-                            href="cv_demo.docx" 
-                            download="cv_demo.docx"
+                            // href="cv_demo.docx" 
+                            // download="cv_demo.docx"
+                            href="PHAM-BAO-MANH-TUONG_Web_developer.pdf" 
+                            download="PHAM-BAO-MANH-TUONG_Web_developer.pdf"
                             className='flex'>
                             Download Cv <MdOutlineCloudDownload className='icon' />
                         </a>

@@ -5,6 +5,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { FaTwitter, FaYoutube } from "react-icons/fa";
 import { TbArrowBigRightLine } from "react-icons/tb";
 import { FiChevronsDown } from "react-icons/fi";
+import { FaFacebook } from "react-icons/fa";
 
 const Home = () => {
     return (
@@ -14,17 +15,17 @@ const Home = () => {
             {/* this div will be only visible at wider screen */}
             <div className='leftIcons'>
                 <div className='socials grid'>
-                    <a href="#" target='_blank'>
+                    <a href="https://github.com/Kyronk" target='_blank'>
                         <IoLogoGithub  className='icon' />
                     </a>
 
-                    <a href="#" target='_blank'>
-                        <FaTwitter  className='icon' />
+                    <a href="https://www.facebook.com/phambaomanhtuongk/" target='_blank'>
+                        <FaFacebook  className='icon' />
                     </a>
 
-                    <a href="#" target='_blank'>
+                    {/* <a href="#" target='_blank'>
                         <FaYoutube  className='icon' />
-                    </a>
+                    </a> */}
 
                     <div className='line'></div>
 
@@ -39,7 +40,7 @@ const Home = () => {
                 <h1 className='title'>Mạnh Tường </h1>
 
                 <span className='subTitle'>
-                    I develope scalable web based applications and software.
+                    I am a web developer.
                 </span>
 
                 <p className='homeParagraph'>
@@ -68,7 +69,7 @@ const Home = () => {
             </div>
 
             {/* right div, with email address (will also be visible at a wider screen only )*/}
-            <div className='rightEmail'>
+            {/* <div className='rightEmail'>
                 <div>
                     <div className='emailAddress'>
                         <a href="" target='_blank'>
@@ -79,7 +80,7 @@ const Home = () => {
                     <div className='line'></div>
 
                 </div>
-            </div>
+            </div> */}
 
         </section>
     )
