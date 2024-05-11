@@ -111,7 +111,8 @@ const ProjectPage_2 = () => {
                         <h5> + HTML</h5>
                         <h5> + Tailwind css</h5>
                         <h5> + NodeJS, Express</h5>
-                        <h5> + MySQL</h5>
+                        <h5> + MySQL (Sequelize)</h5>
+                        
 
                     </div>
                 </div>
