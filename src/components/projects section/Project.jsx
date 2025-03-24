@@ -6,8 +6,9 @@ import { FaYoutube } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 
 const data = [
+
     {
-        id: 1,
+        id: 2,
         image: "https://res.cloudinary.com/dwjsk2qlw/image/upload/v1715335308/My_CV/Screenshot_2024-05-08_220945_hibgda.png",
         demo: "",
         live: "",
@@ -23,7 +24,7 @@ const data = [
     },
 
     {
-        id: 2,
+        id: 3,
         image: "https://res.cloudinary.com/dwjsk2qlw/image/upload/v1715335301/My_CV/Screenshot_2024-05-10_170015_elh2ej.png ",
         demo: "",
         live: "",
@@ -82,6 +83,44 @@ const Project = () => {
             </div>
 
             <div className='projectContainer grid'>
+                <div className='singleProject'>
+
+                    <div className='externalLinks flex'>
+                        <div className='youtubeIcon'>
+                            <a href="#" target='_blank'>
+                                <FaYoutube className='icon' />
+                            </a>
+                        </div>
+                        <div className='githubIcon'>
+                            <a href="https://gitlab.com/react9750409/react_1" target='_blank'>
+                                <IoLogoGithub className='icon' />
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div className='imgDiv'>
+                        <a href="https://react-1-lyart.vercel.app/" target='_blank'>
+                            <img src="https://res.cloudinary.com/dvpu9sc4z/image/upload/f_auto,q_auto/v1/img_project/qawrulugxtaqm4ue5x72" alt="" />
+                        </a>
+                    </div>
+
+                    <div className='projectTitle'>
+                        <h3>Project react shop </h3>
+                    </div>
+
+                    <div className='desc'>
+                        {/* {item.desc} */}
+                    </div>
+
+                    <div className='technologies flex'>
+                        <small>React TS</small>
+                        <small>Redux Zustand</small>
+
+
+                    </div>
+
+                </div>
                 {data.map((item, idx) => (
                     <div key={idx} className='singleProject'>
 
@@ -96,7 +135,7 @@ const Project = () => {
                                     <IoLogoGithub className='icon' />
                                 </a>
                             </div>
-                                
+
                         </div>
 
                         <div className='imgDiv'>
@@ -112,7 +151,7 @@ const Project = () => {
                         <div className='desc'>
                             {item.desc}
                         </div>
-                        
+
                         <div className='technologies flex'>
                             <small>{item.tech1}</small>
                             <small>{item.tech2}</small>
